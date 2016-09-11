@@ -20,6 +20,9 @@
 	div.alto_color{
 		height: 100px;
 	}
+	p.fon18{
+		font-size: 14px;
+	}
 }
 @media (min-width: 0px) and (max-width: 767px) {
 	/*saber deonde es el breakpoint*/
@@ -114,6 +117,8 @@ nav.navbar ul.nav li {
 	height: 2px;
 	width: 18%;
 	border: none;
+}
+.negro{
 	background-color:#443e44;
 }
 /*padding para titulo en cada seccion*/
@@ -211,4 +216,58 @@ nav.navbar ul.nav li {
 /*color para link en general*/
 a{
 	color: #443e44;
+}
+/*backgroun de la secccion abut*/
+.navy{
+	background-color: #2c3e50;
+}
+/*tamaño de fuente de parrafo*/
+.font18{
+	font-size: 18px;
+}
+/*estilo de barras*/
+.barra{
+	height: 10px;
+	border-radius: 0px;
+}
+/*color de la barra*/
+.color_barra{
+	background-color: #e67e22;
+}
+/*animacion de las barras*/
+.html{
+    -moz-animation: html 10s ease-out;
+    -webkit-animation: html 10s ease-out;
+}
+.css{
+    -moz-animation: css 10s ease-out;
+    -webkit-animation: css 10s ease-out;
+}
+.java{
+    -moz-animation: java 10s ease-out;
+    -webkit-animation: java 10s ease-out;
+}   
+.php{
+   	-moz-animation: php 10s ease-out;
+    -webkit-animation: php 10s ease-out;
+}
+.photo{
+    -moz-animation: photo 10s ease-out;
+    -webkit-animation: photo 10s ease-out;
+}
+/*para mozilla*/
+@-moz-keyframes html {0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes css { 0%  { width:0px;} 100%{ width:85%;}  }
+@-moz-keyframes java { 0%  { width:0px;} 100%{ width:60%;}  }
+@-moz-keyframes php { 0%  { width:0px;} 100%{ width:70%;}  }
+@-moz-keyframes photo { 0%  { width:0px;} 100%{ width:80%;}  }
+/*para crome*/
+@-webkit-keyframes html { 0%  { width:0px;} 100%{ width:90%;}  }
+@-webkit-keyframes css { 0%  { width:0px;} 100%{ width:85%;}  }
+@-webkit-keyframes java { 0%  { width:0px;} 100%{ width:60%;}  }
+@-webkit-keyframes php { 0%  { width:0px;} 100% { width:70%;}  }
+@-webkit-keyframes photo { 0%  { width:0px;} 100% { width:80%;}  }
+/*margen de abajo de about*/
+.mgb{
+	margin-bottom: 8%;
 }
