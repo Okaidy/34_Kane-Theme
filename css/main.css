@@ -1,3 +1,29 @@
+@media screen and (max-width: 970px) {
+	/*para saber en donde es breakpoint*/
+	h1.white{
+		color: pink;
+	}
+	/*cambio de tamaño de letra*/
+	h1.font65{
+		font-size: 50px;
+	}
+	p.font30{
+		font-size: 25px;
+	}
+}
+@media screen and (max-width: 500px) {
+	/*saber deonde es el breakpoint*/
+	h1.white{
+		color: red;
+	}
+	/*cambio de tamaño de letra*/
+	h1.font65{
+		font-size: 30px;
+	}
+	p.font30{
+		font-size: 16px;
+	}
+}
 /*Color verde para el menu*/
 .nav_verde{
 	background-color: #27ad60;
@@ -19,6 +45,7 @@
 nav.navbar ul.nav li {
     font-weight: normal;
 }
+/*efecto para el logo*/
 .dark img {
   -webkit-filter: brightness(100%);
   -webkit-transition: all 1s ease;
@@ -27,7 +54,32 @@ nav.navbar ul.nav li {
       -ms-transition: all 1s ease;
           transition: all 1s ease;
 }
- 
 .dark img:hover {
   -webkit-filter: brightness(0%);
+}
+/*fondo de banner*/
+.fondo{
+	background-image: url(../img/carousel-bg.jpg);
+	background-size: cover;
+	padding: 130px 0px 30px 0px;
+}
+/*letra blanca*/
+.white{
+	color: white;
+}
+/*Tamaño para titulo principal*/
+.font65{
+	font-size: 65px;
+}
+/*tamaño para parrafo en banner principal*/
+.font30{
+	font-size: 30px;
+}
+/*grosor de la letra del parrafo de banner*/
+.w300{
+	font-weight:300;
+}
+/*grosor de letra para itulo de banner*/
+.normal{
+	font-weight: normal;
 }
