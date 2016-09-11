@@ -1,4 +1,4 @@
-@media screen and (max-width: 970px) {
+@media (min-width: 768px) and (max-width: 991px) {
 	/*para saber en donde es breakpoint*/
 	h1.white{
 		color: pink;
@@ -10,18 +10,40 @@
 	p.font30{
 		font-size: 25px;
 	}
+	/*cambia subtitulos*/
+	h2.font60{
+		font-size: 40px;
+	}
+	div.pad_color{
+		padding: 0% 4%;
+	}
+	div.alto_color{
+		height: 100px;
+	}
 }
-@media screen and (max-width: 500px) {
+@media (min-width: 0px) and (max-width: 767px) {
 	/*saber deonde es el breakpoint*/
 	h1.white{
 		color: red;
 	}
 	/*cambio de tamaño de letra*/
 	h1.font65{
-		font-size: 30px;
+		font-size: 40px;
 	}
 	p.font30{
 		font-size: 16px;
+	}
+	h2.font60{
+		font-size: 30px;
+	}
+	div.margen{
+		margin-top:0px;
+	}
+	div.alto_color{
+		height: 80px;
+	}
+	div.pad_color{
+		padding: 0%;
 	}
 }
 /*Color verde para el menu*/
@@ -82,4 +104,111 @@ nav.navbar ul.nav li {
 /*grosor de letra para itulo de banner*/
 .normal{
 	font-weight: normal;
+}
+/*tamaño de fiuente para encabezados*/
+.font60{
+	font-size: 60px;
+}
+/*linea divisora*/
+.linea{
+	height: 2px;
+	width: 18%;
+	border: none;
+	background-color:#443e44;
+}
+/*padding para titulo en cada seccion*/
+.pt{
+	padding-top: 5%;
+}
+/*paleta de colres*/
+.c1{
+	background-color: #69d2e7;
+}
+.c2{
+	background-color: #a7dbdb;
+}
+.c3{
+	background-color: #e0e4cc;
+}
+.c4{
+	background-color: #f38630;
+}
+.c5{
+	background-color: #fa6900;
+}
+.c6{
+	background-color: #e94c6f;
+}
+.c7{
+	background-color: #542733;
+}
+.c8{
+	background-color: #5a6a62;
+}
+.c9{
+	background-color: #c6d5cd;
+}
+.c10{
+	background-color: #fdf200;
+}
+.c11{
+	background-color: #db3340;
+}
+.c12{
+	background-color: #e8b71a;
+}
+.c13{
+	background-color: #f7eac8;
+}
+.c14{
+	background-color: #1fda9a;
+}
+.c15{
+	background-color: #28abe3;
+}
+.c16{
+	background-color: #588c73;
+}
+.c17{
+	background-color: #f2e394;
+}
+.c18{
+	background-color: #f2ae72;
+}
+.c19{
+	background-color: #d96459;
+}
+.c20{
+	background-color: #8c4646;
+}
+.c21{
+	background-color: #d0c91f;
+}
+.c22{
+	background-color: #85c4b9;
+}
+.c23{
+	background-color: #008bba;
+}
+.c24{
+	background-color: #df514c;
+}
+.c25{
+	background-color: #dc403b;
+}
+/*altura de paleta de colores*/
+.alto_color{
+	height: 150px;
+}
+/*margen entre renglones de colores*/
+.margen{
+	margin-top: 10px;
+}
+/*padding para la paleta de colores*/
+.pad_color{
+	padding: 0% 10%;
+}
+/*color para link en general*/
+a{
+	color: #443e44;
 }
