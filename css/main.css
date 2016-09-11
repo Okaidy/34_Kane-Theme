@@ -1,0 +1,33 @@
+/*Color verde para el menu*/
+.nav_verde{
+	background-color: #27ad60;
+}
+/*Centra los items de foma vertical*/
+.navbar-nav li a {
+ line-height: 50px;
+}
+/*Backgrroun blanco para hamburgesa*/
+.blanco{
+	background-color: white;
+}
+/*quita el background de la clase de bootstrap*/
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: transparent;
+    color: #e67e22;
+}
+/*Cambia el grosor de la letra del menu*/
+nav.navbar ul.nav li {
+    font-weight: normal;
+}
+.dark img {
+  -webkit-filter: brightness(100%);
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.dark img:hover {
+  -webkit-filter: brightness(0%);
+}
