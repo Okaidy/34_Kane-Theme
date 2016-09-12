@@ -26,6 +26,9 @@
 	div.pad_service{
 		padding: 0% 1%;
 	}
+	div.pad_team{
+		padding: 3% 5%;
+	}
 }
 @media (min-width: 0px) and (max-width: 767px) {
 	/*saber deonde es el breakpoint*/
@@ -51,6 +54,12 @@
 	div.pad_color{
 		padding: 0%;
 	}
+	div.pad_team{
+		padding: 2% 5%;
+	}
+	div.pp{
+	padding: 2% 10%;
+}
 }
 /*Color verde para el menu*/
 .nav_verde{
@@ -371,4 +380,29 @@ a{
 }
 .punteada{
 	border:1px dashed gray;
+}
+/*bor de precios*/
+.borde{
+	border: 1px solid #27ad60;
+}
+.font40{
+	font-size: 40px;
+}
+.pad_price{
+	padding: 2.5% 0%;
+}
+.azul{
+	color: #2c3e50;
+}
+.pad_boton{
+	padding: 10% 0%;
+}
+.borde:hover{
+	background-color: #e67e22;
+}
+.borde:hover div.pad_boton{
+	background: #2c3e50;
+}
+.pp{
+	padding: 1%;
 }
