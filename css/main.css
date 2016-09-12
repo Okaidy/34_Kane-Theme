@@ -344,3 +344,31 @@ a{
 	background: white;
 	color: #443e44;
 }
+.pad_team{
+	padding: 0% 5%;
+}
+/*foto*/
+.team{
+	background-image: url("../img/team/1.jpg");
+	width: 200px;
+	height: 188px;
+}
+/*cambia la foto*/
+.gira{
+	-webkit-transition-duration: 0.8s;
+        -moz-transition-duration: 0.8s;
+        -o-transition-duration: 0.8s;
+        transition-duration: 0.8s;
+}
+.gira:hover{
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg); 
+          border-radius: 50%;
+	background-image: url("../img/team/backside/1.jpg");
+}
+.punteada{
+	border:1px dashed gray;
+}
