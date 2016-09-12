@@ -23,6 +23,9 @@
 	p.fon18{
 		font-size: 14px;
 	}
+	div.pad_service{
+		padding: 0% 1%;
+	}
 }
 @media (min-width: 0px) and (max-width: 767px) {
 	/*saber deonde es el breakpoint*/
@@ -270,4 +273,74 @@ a{
 /*margen de abajo de about*/
 .mgb{
 	margin-bottom: 8%;
+}
+/*color para el texto de service*/
+.gris{
+	color: #c1c1c1;
+}
+/*fondo para iconos de servicio*/
+.fondo_icono{
+	background: url("../img/icon-bg.png") repeat-x center center;
+	background-color: #2c3e50;
+    position: relative;
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    padding-top: 25px;
+}
+.pad_service{
+	padding: 0% 7%;	
+}
+/*traansforma el fondo del elemento sleccionado*/
+.morph {
+	padding: 20px 8px;
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+/*si se pasa sobre elcambia el fondo*/
+.morph:hover {
+	    -webkit-transition: all 0.6s linear;
+        -moz-transition: all 0.6s linear;
+        -o-transition: all 0.6s linear;
+        -ms-transition: all 0.6s linear;
+        transition: all 0.6s linear;
+        background-color: #2c3e50
+}
+/*cambia el color de la letra del tutilo*/
+.morph:hover h3{
+	color: #e67e22;
+}
+/*cambia el color de fondo del icono*/
+.morph:hover div{
+	background: #e67e22;
+}
+/*hace invisible a hr*/
+.nada{
+	border:1px solid transparent;
+}
+/*le da color cuando se selecciona el div que la contiene*/
+.morph:hover hr{
+	border:1px white solid;
+}
+/*gira el icono y su fondo*/
+.rotate {
+	    -webkit-transition-duration: 0.8s;
+        -moz-transition-duration: 0.8s;
+        -o-transition-duration: 0.8s;
+        transition-duration: 0.8s;
+}
+/*cuando se pase el mouse sobre el div va ha hacer girar al icono y su fondo*/
+.morph:hover div.rotate{
+        -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg); 
+}
+.btn:hover{
+	background: white;
+	color: #443e44;
 }
