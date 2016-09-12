@@ -1,8 +1,4 @@
 @media (min-width: 768px) and (max-width: 991px) {
-	/*para saber en donde es breakpoint*/
-	h1.white{
-		color: pink;
-	}
 	/*cambio de tamaño de letra*/
 	h1.font65{
 		font-size: 50px;
@@ -32,12 +28,18 @@
 	div.pad_contact{
 	padding: 0% 15%;
 	}
+	span.gde{
+	font-size: 5em;
+	margin: 0% 2%;
+	}
+	div.pad_footer{
+	padding: 2% 4% 2% 4%;
+	}
+	div.pad_f{
+	padding: 0% 5%;
+	}
 }
 @media (min-width: 0px) and (max-width: 767px) {
-	/*saber deonde es el breakpoint*/
-	h1.white{
-		color: red;
-	}
 	/*cambio de tamaño de letra*/
 	h1.font65{
 		font-size: 40px;
@@ -65,6 +67,14 @@
 	}
 	div.pad_contact{
 	padding: 0% 10%;
+	}
+	span.gde{
+	font-size: 2em;
+	margin: 0% 1%;
+	}
+	div.fondo_redes{
+	padding: 10% 1%;
+	background-position: 10% 30%;
 	}
 }
 /*Color verde para el menu*/
@@ -423,4 +433,30 @@ a{
 }
 .pad_contact{
 	padding: 0% 20%;
+}
+/*fondo dde redes sociales*/
+.fondo_redes{
+	background-image: url(../img/img-divider-img.jpg);
+	padding: 10% 8%;
+	background-position: 10% 30%;
+}
+.gde{
+	font-size: 8em;
+	margin: 0% 1.5%;
+}
+.black:hover{
+	color: #27ad60;
+}
+/*pading foote*/
+.pad_footer{
+	padding: 2% 5% 2% 5%;
+}
+.pad_f{
+	padding: 0% 9%;
+}
+.pad_b{
+	padding: 0% 3%
+}
+.ancho{
+	width: 70px;
 }
