@@ -29,6 +29,9 @@
 	div.pad_team{
 		padding: 3% 5%;
 	}
+	div.pad_contact{
+	padding: 0% 15%;
+	}
 }
 @media (min-width: 0px) and (max-width: 767px) {
 	/*saber deonde es el breakpoint*/
@@ -59,7 +62,10 @@
 	}
 	div.pp{
 	padding: 2% 10%;
-}
+	}
+	div.pad_contact{
+	padding: 0% 10%;
+	}
 }
 /*Color verde para el menu*/
 .nav_verde{
@@ -405,4 +411,16 @@ a{
 }
 .pp{
 	padding: 1%;
+}
+.font20{
+	font-size: 20px
+}
+.pad_say{
+	padding: 0% 20%;
+}
+.naranja{
+	color: #e67e22;
+}
+.pad_contact{
+	padding: 0% 20%;
 }
